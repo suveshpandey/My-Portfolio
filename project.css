@@ -97,7 +97,7 @@
 } */
 
 
-/*porttrait mode*/
+/*portrait mode*/
 @media only screen and (max-width: 455px) and (orientation: portrait) {
     .project-container{
         margin-left: 0rem;
@@ -107,8 +107,7 @@
     }
     .left-container{
         padding-left: 1rem;
-        border-radius: 10px;
-        border: 2px solid #3877FF;
+        border: 1.5px solid #3877FF;
        
     }
    
@@ -119,8 +118,6 @@
 @media only screen and (max-device-width: 932px)  and (orientation: landscape) {
     .left-container{
         padding-left: 2rem;
-
-        border-radius: 10px;
-        border: 2px solid #3877FF;
+        border: 1.5px solid #3877FF;
     }
 }
