@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "loader.css">
+    <title>Loader</title>
+</head>
+<body>
+    <div class = "loader">
+        <h1>Loading...</h1>
+        <div class="insideLoader">
+            <div class="mover"></div>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var pageType = urlParams.get('type');
+
+            if (pageType === 'about') {
+                window.location.href = "about.html"; 
+            } 
+
+            else if (pageType === 'work') {
+                window.location.href = "work.html";
+            } 
+
+            else if (pageType === 'projects') {
+                window.location.href = "project.html";
+            } 
+
+            else if (pageType === 'myProjectsBtn') {
+                window.location.href = "project.html";
+            } 
+            
+            else if (pageType === 'hiremeBtn') {
+                window.location.href = "hire.html";
+            } 
+
+            else {
+                window.location.href = "index.html"; // Default redirection
+            }
+        }, 2000);
+    </script>
+
+    
+</body>
+</html>

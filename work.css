@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.work-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-container, .right-container{
+    height: auto;
+}
+.left-container{
+    background-color: #262525;
+    width: 70%;
+    padding-left: 3rem;
+    
+}
+.right-container{
+    background: linear-gradient(-45deg,  #3877FF , #262525 );
+    width: 30%;
+}
+
+.content{
+    padding-left: 3rem;
+}
+
+.left-container h1{
+    margin: 1rem;
+    margin-left: 0rem;
+    color: #5DB9EE; 
+}
+.left-container h2{
+    color: #6078aa;
+}
+.left-container h3{
+    padding-top: .5rem;
+    padding-left: 1rem;
+    color:darkgray;
+}
+.left-container li{
+    color: white;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.left-container span{
+    color: burlywood;
+}
+.left-container p{
+    color:rgb(121, 113, 113);
+    padding-top: .3rem;
+    padding-left: 1.1rem;
+    
+}
+.skills li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen {
+    .left-container{
+        padding: 10px;
+    }
+}
+
+/*porttrait mode*/
+@media only screen and (max-width: 455px) and (orientation: portrait) {
+    .left-container{
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: 2px solid #3877FF;;
+    }
+    .right-container{
+        width: 0%;
+    }
+    .content{
+        padding-left: 1rem;
+    }
+   
+} 
+
+
+/*landscape mode*/
+@media only screen and (max-device-width: 932px)  and (orientation: landscape) {
+    .left-container{
+        border-radius: 10px 0 0 10px;
+        border: 2px solid #3877FF;
+        border-right: none;
+    }
+    .right-container{
+        border-radius: 0 10px 10px 0;
+        border: 2px solid #3877FF;
+        border-left: none;
+    }
+}

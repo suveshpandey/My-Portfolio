@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.project-container{
+    transition: 2s ease;
+    animation-delay: 2s;
+}
+
+.project-container{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.left-container{
+    height: auto;
+}
+.left-container{
+    background-color: #262525;
+    width: 100%;
+    padding-left: 3rem;
+    
+}
+/* .right-container{
+    background: linear-gradient(-45deg, #3877FF , #262525 );
+    width: 30%;
+} */
+
+.left-container h1{
+    color: white;
+    padding-top: 1rem;
+    padding-left: .1rem;
+    color: #5DB9EE; 
+    transition: color ease-in 1.5s 0s, infinite;
+}
+.left-container h1{
+    transition: width 2s, height 4s;
+}
+.left-container h2{
+    color: white;
+    padding-top: 1rem;
+    padding-left: .1rem;
+    color: #5DB9EE; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projects{
+    padding: 1rem;
+}
+.projects li{
+    font-size: 1.3rem;
+    color: rgb(234, 212, 212);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.projects li a{
+    text-decoration: none;
+    color:#3877FF;
+    font-size: 0.8rem;
+}
+.projects ul{
+    color:rgb(119, 119, 119);
+}
+/* .skills{
+    margin: 2rem;
+    font-family: 'Poppins',sans-serif;
+    color:#aea3b4;
+    margin-top: 65px;
+}
+.skills1{
+    padding-top: 20px;
+    height: 135px;
+    width:auto;
+    
+}
+.skills2{
+    height:20vh;
+    width:auto;
+}
+.skills3{
+    height: 25vh;
+    width:auto
+   
+}
+.skills4{
+    height: 80vh;
+    width:auto
+    
+
+} */
+
+
+/*porttrait mode*/
+@media only screen and (max-width: 455px) and (orientation: portrait) {
+    .project-container{
+        margin-left: 0rem;
+        padding-left: 0rem;
+        font-size: 1rem;
+        
+    }
+    .left-container{
+        padding-left: 1rem;
+        border-radius: 10px;
+        border: 2px solid #3877FF;
+       
+    }
+   
+} 
+
+
+/*landscape mode*/
+@media only screen and (max-device-width: 932px)  and (orientation: landscape) {
+    .left-container{
+        padding-left: 2rem;
+
+        border-radius: 10px;
+        border: 2px solid #3877FF;
+    }
+}
