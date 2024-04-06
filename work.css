@@ -72,8 +72,7 @@
     .left-container{
         width: 100%;
         font-size: 1rem;
-        border-radius: 10px;
-        border: 2px solid #3877FF;;
+        border: 1.5px solid #3877FF;;
     }
     .right-container{
         width: 0%;
@@ -88,13 +87,9 @@
 /*landscape mode*/
 @media only screen and (max-device-width: 932px)  and (orientation: landscape) {
     .left-container{
-        border-radius: 10px 0 0 10px;
-        border: 2px solid #3877FF;
-        border-right: none;
+        border: 1.5px solid #3877FF;
     }
     .right-container{
-        border-radius: 0 10px 10px 0;
         border: 2px solid #3877FF;
-        border-left: none;
     }
 }
