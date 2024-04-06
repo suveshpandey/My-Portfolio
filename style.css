@@ -396,7 +396,7 @@
 
 
 
-/*landscape mode*/
+/*landscape mode 1*/
 
 @media only screen and (max-device-width: 932px)  and (orientation: landscape) {
     .portfolio-container{
@@ -485,4 +485,866 @@
     }
     
 }
+
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+
+/*landscape 2*/
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+ 
+
+
+/*landscape 2*/
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+ 
+
+/*landscape 2*/
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+ 
+
+/*landscape 2*/
+@media only screen and (max-device-width: 800px)  and (orientation: landscape) {
+    .portfolio-container{
+        min-height:auto;
+        min-width: auto;
+        height: 105vh;
+    }
+    .left-container{
+        padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 3.5rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.2rem;
+    
+        height: 8vh;
+        width: 100%;
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        font-size: .8rem;
+    }
+    .design .circle{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 15rem;
+    }
+    .circle:nth-child(2){
+        width: 11rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .content{
+        height: auto;
+        max-width: 25rem;
+        padding-top: 7rem;
+        margin-left: 2rem ;
+        margin-bottom: 2rem;
+        
+    }
+    .content .intro{
+        font-size: 1.1rem;
+        color: white;
+    }
+    .content .intro span{
+        color: #5DB9EE;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: #5DB9EE;
+    }
+    .content .detail{
+        font-size: .7rem;
+        color: white;
+        max-width: 22rem;
+        margin: 1rem 0 1rem 0;
+        line-height: 1.8rem;
+    }
+
+    .btn-container{
+        padding-bottom: 1rem;
+    }
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    
+    
+}
+ 
  
