@@ -1244,7 +1244,7 @@
     .portfolio-container{
         min-height:auto;
         min-width: auto;
-        height: 105vh;
+        height: auto;
     }
     .left-container{
         padding-left: 1rem;
