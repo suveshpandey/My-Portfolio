@@ -213,31 +213,38 @@
     
         display: flex;
         justify-content: center;
-        padding-top: 0.8rem;
-        padding-left: .5rem;
-        padding-right: .5rem;
+        padding-top: 0.5rem;
+        padding-left: .1rem;
+        padding-right: .1rem;
     
         height: 10vh;
         width: 100%;
     
+    
         position:fixed;
         
+    }
+    .navlist a{
+        text-decoration: none;
+        font-size: .9rem;
+        color: white;
+        position: relative;
     }
 
     .design .circle{
         aspect-ratio: 1;
         position: absolute;
         border-radius: 50%;
-        top: 25.5%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
     .circle:nth-child(1){
         background :linear-gradient(90deg, transparent, #262525 50%);
-        width: 20rem;
+        width: 0rem;
     }
     .circle:nth-child(2){
-        width: 15rem;
+        width: 18rem;
         background-image: url("suveshpiccopy.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
@@ -252,12 +259,11 @@
     }
 
     .content{
-        margin-left: 3.3rem;
+        margin-left: 3rem;
         padding-right: 1rem;
         padding-bottom: 8rem;
         padding-top: 10rem;
 
-        
     }
     .icons {
         display: flex;
@@ -285,6 +291,108 @@
         transition: .4s ease;
     }
 } 
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+    .portfolio-container{
+        max-height: auto;
+        width: auto;
+        border-radius: 10px;
+        border:3px solid #3877FF;;
+    }
+    .left-container{
+        min-width: 100%;
+        min-height: 140vh;
+        padding-left: 0rem;
+    }
+    .navlist{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 0.5rem;
+        padding-left: .1rem;
+        padding-right: .1rem;
+    
+        height: 10vh;
+        width: 100%;
+    
+    
+        position:fixed;
+        
+    }
+    .navlist a{
+        text-decoration: none;
+        font-size: .8rem;
+        color: white;
+        position: relative;
+    }
+
+    .design .circle{
+        aspect-ratio: 1;
+        position: absolute;
+        border-radius: 50%;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background :linear-gradient(90deg, transparent, #262525 50%);
+        width: 0rem;
+    }
+    .circle:nth-child(2){
+        width: 15rem;
+        background-image: url("suveshpiccopy.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: .1rem solid white;
+        box-shadow:
+        0 0  1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        0 0 4rem #3877FF,
+        inset 0 0 4rem #1f56cd;
+    }
+
+    .content{
+        margin-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 8rem;
+        padding-top: 20rem;
+    }
+    .content h1{
+        font-size: 3rem;
+        text-align: center
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        bottom: 0;
+        right: 1rem; 
+        left: 1rem;
+        position: fixed;
+        margin-bottom: 1rem;
+        
+    }
+
+
+    .btn-container button{
+        border: 0.1rem solid #5DB9EE;
+        font-size: 1.1rem;
+        padding: .8rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+} 
+
+
+
 
 
 
