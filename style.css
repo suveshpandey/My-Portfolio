@@ -198,7 +198,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border:1px solid #3877FF;;
+        border:.5px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
@@ -297,7 +297,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border:1px solid #3877FF;;
+        border: .5px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
