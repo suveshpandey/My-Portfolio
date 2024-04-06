@@ -63,9 +63,12 @@
 @media only screen and (max-device-width: 932px)  and (orientation: landscape) {
     
     .left-container{
+        
         border: 1.5px solid #3877FF;
+        border-right: none;
     }
     .right-container{
         border: 1.5px solid #3877FF; 
+        border-left: none;
     }
 }
