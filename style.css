@@ -130,10 +130,10 @@
 }
 .circle:nth-child(1){
     background :linear-gradient(90deg, transparent, #262525 50%);
-    width: 38rem;
+    width: 35rem;
 }
 .circle:nth-child(2){
-    width: 30rem;
+    width: 27rem;
     background-image: url("suveshpiccopy.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -198,8 +198,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border-radius: 10px;
-        border:3px solid #3877FF;;
+        border:1px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
@@ -298,8 +297,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border-radius: 10px;
-        border:3px solid #3877FF;;
+        border:1px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
@@ -407,6 +405,10 @@
     }
     .left-container{
         padding-left: 1rem;
+        width: 80%;
+    }
+    .right-container{
+        width: 20%;
     }
     .navlist{
         list-style: none;
@@ -429,16 +431,16 @@
         position: fixed;
         border-radius: 50%;
         top: 50%;
-        left: 70%;
+        left: 80%;
         transform: translate(-50%, -50%);
     }
     
     .circle:nth-child(1){
         background :linear-gradient(90deg, transparent, #262525 50%);
-        width: 18rem;
+        width: 16rem;
     }
     .circle:nth-child(2){
-        width: 13rem;
+        width: 11rem;
         background-image: url("suveshpiccopy.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
