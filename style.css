@@ -531,10 +531,10 @@
     }
     .circle:nth-child(1){
         background :linear-gradient(90deg, transparent, #262525 50%);
-        width: 15rem;
+        width: 14rem;
     }
     .circle:nth-child(2){
-        width: 11rem;
+        width: 10rem;
         background-image: url("suveshpiccopy.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
@@ -559,7 +559,7 @@
     .content{
         height: auto;
         max-width: 25rem;
-        padding-top: 7rem;
+        padding-top: 4rem;
         margin-left: 2rem ;
         margin-bottom: 2rem;
         
