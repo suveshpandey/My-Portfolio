@@ -53,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2.5rem;
     
 }
 
@@ -198,7 +198,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border:1.5px solid #3877FF;;
+        border:1px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
@@ -258,27 +258,24 @@
     }
 
     .content{
-        margin-left: 3rem;
-        padding-right: 1rem;
+        /* margin-left: 3rem;
+        padding-right: 1rem; */
         padding-bottom: 8rem;
         padding-top: 10rem;
 
     }
+    .content .detail{
+        max-width: 20rem;
+    }
     .icons {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        position: absolute; 
+        justify-content:center;
+        align-items: center; 
         bottom: 0;
-        left: 1rem; 
-        right: 1rem; 
-        margin-left: auto;
-        margin-right: auto;
         position: fixed;
-        margin-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-bottom: 1rem; 
+        padding-left: 2rem;
     }
 
     .btn-container button{
@@ -297,7 +294,7 @@
     .portfolio-container{
         max-height: auto;
         width: auto;
-        border: 1.5px solid #3877FF;;
+        border:1px solid #3877FF;;
     }
     .left-container{
         min-width: 100%;
@@ -369,16 +366,13 @@
     .icons {
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content: center;
         align-items: center;
-        position: absolute; 
         bottom: 0;
-        right: 1rem; 
-        left: 1rem;
         position: fixed;
         margin-bottom: 1rem;
-        
-    }
+       padding-left: .5rem;
+    } 
 
 
     .btn-container button{
