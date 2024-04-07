@@ -7,17 +7,22 @@
 
 .hire-container{
     min-height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
 }
 
 .left-container, .right-container{
     height: 100vh;
+    height: auto;
+    padding-bottom: 1rem;
+    border: 1.5 rem solid blue;
 }
 .left-container{
     background-color: #262525;
     width: 70%;
     padding-left: 3rem;
+    padding-right: 1rem;
     
 }
 .right-container{
@@ -28,6 +33,9 @@
     margin-top:1rem;
     color: #5DB9EE;
 }
+.left-container .collaboration{
+    font-size: 1.5rem;
+}
 .left-container p{
     color: rgb(234, 212, 212);
     margin-top: 1rem;
@@ -35,4 +43,27 @@
 }
 .left-container span{
     color: aqua;
+}
+
+@media only screen and (max-width: 455px) and (orientation: portrait) {
+    .hire-container{
+        max-height: auto;
+        width: auto;
+        border:1.5px solid #3877FF;;
+    }
+    .left-container{
+        width: 100%;
+        padding: 1rem;
+    }
+    .right-container{
+        width: 0%;
+    }
+    .collaboration{
+        font-size: 1.2rem;
+        color: #3877FF;
+    }
+    .left-container p{
+        font-size: .8rem;
+    }
+
 }
