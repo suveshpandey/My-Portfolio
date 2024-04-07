@@ -67,3 +67,25 @@
     }
 
 }
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+    .hire-container{
+        max-height: auto;
+        width: auto;
+        border:1.5px solid #3877FF;;
+    }
+    .left-container{
+        width: 100%;
+        padding: 1rem;
+    }
+    .right-container{
+        width: 0%;
+    }
+    .collaboration{
+        font-size: 1.2rem;
+        color: #3877FF;
+    }
+    .left-container p{
+        font-size: .8rem;
+    }
+
+}
