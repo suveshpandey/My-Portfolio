@@ -81,7 +81,7 @@
     color: #5DB9EE;
 }
 .content h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #5DB9EE;
 }
 .content .detail{
@@ -138,7 +138,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     border: .1rem solid white;
-    box-shadow:
+    box-shadow:  
     0 0  1rem #fff,
     inset 0 0 1rem #fff,
     0 0 2rem #3877FF,
@@ -264,6 +264,9 @@
         padding-top: 10rem;
 
     }
+    .content h1{
+        font-size: 2rem;
+    }
     .content .detail{
         max-width: 20rem;
     }
@@ -384,7 +387,7 @@
         transition: .4s ease;
     }
 } 
-/*portrait mode 2*/
+/*portrait mode 3*/
 @media only screen and (min-width: 375px) and (max-width: 400px) and (orientation: portrait) {
     .portfolio-container{
         max-height: auto;
@@ -458,7 +461,7 @@
         text-align: center;
     }
     .content h1{
-        font-size: 3rem;
+        font-size: 1.9rem;
         text-align: center
     }
     .content .detail{
@@ -485,6 +488,13 @@
         transition: .4s ease;
     }
 } 
+
+/*portrait mode 4*/
+@media only screen and (max-width: 375px) and (max-width: 400px) and (orientation: portrait) {
+    .content h1{
+        font-size: 1.8rem;
+    }
+}
 
 
 
@@ -573,7 +583,7 @@
         color: #5DB9EE;
     }
     .content h1{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         color: #5DB9EE;
     }
     .content .detail{
