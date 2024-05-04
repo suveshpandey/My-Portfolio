@@ -70,7 +70,7 @@
     font-size: 1.7rem;
 }
 .content{
-    margin-left: 4rem ;
+    margin-left: 3rem ;
     
 }
 .content .intro{
@@ -99,6 +99,7 @@
     border-radius: .5rem;
     cursor: pointer;
     transition: .4s ease;
+    
 }
 
 .btn1{
@@ -386,6 +387,9 @@
         cursor: pointer;
         transition: .4s ease;
     }
+    .btn2{
+        margin-left: 0.5rem;
+    }
 } 
 /*portrait mode 3*/
 @media only screen and (min-width: 375px) and (max-width: 400px) and (orientation: portrait) {
@@ -494,6 +498,10 @@
     .content h1{
         font-size: 1.8rem;
     }
+    .btn2{
+        margin-left: 0rem;
+    }
+    
 }
 
 
